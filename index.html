@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Andie</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="landing is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="index.html">Andie</a> website</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<!-- <li>
+								<a href="#" class="icon fa-angle-down">Layouts</a>
+								<ul>
+									<li><a href="generic.html">Generic</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option One</a></li>
+											<li><a href="#">Option Two</a></li>
+											<li><a href="#">Option Three</a></li>
+											<li><a href="#">Option Four</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#" class="button">Sign Up</a></li> -->
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<h2>Yu-Chien (Andie) Chang</h2>
+					<p><b>Intern Associate at Xiri Attorneys, Taiwan</b></p>
+					<!-- <ul class="actions special">
+						<li><a href="#" class="button primary">Sign Up</a></li>
+						<li><a href="#" class="button">Learn More</a></li>
+					</ul> -->
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="container">
+
+					<section class="box special">
+						<header class="major">
+							<h2>Introducing the ultimate mobile app
+							<br />
+							for doing stuff with your phone</h2>
+							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
+							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+						</header>
+						<span class="image featured"><img src="images/IMG_6055.JPG" alt="" /></span>
+					</section>
+
+					<section class="box special features">
+						<div class="features-row">
+							<section>
+								<span class="icon major fa-graduation-cap accent2"></span>
+								<h3>Education</h3>
+								<p>
+									M.S., National Taiwan Uinversity
+									<br>LL.B., National Taiwan University
+									<br>Exchange Student, Ludwig-Maximilians-Universität München
+								</p>
+
+							</section>
+							<section>
+								<span class="icon major fa-trophy accent3"></span>
+								<h3>Certifications</h3>
+								<p>
+									Taiwan Bar Exam, 2017
+									<br>Zertifikat Deutsch B1, 2013
+								</p>
+							</section>
+						</div>
+						<div class="features-row">
+							<section>
+								<span class="icon major fa-briefcase accent4"></span>
+								<h3>Work Experience</h3>
+								<p>
+									Intern Associate, Xiri Attorneys
+									<br> Research Assistant, National Taiwan University
+									<br> Software Engineer, National Taiwan University Hospital
+									<br> Proofreading Assistant, National Taiwan University
+
+								</p>
+							</section>
+							<section>
+								<span class="icon major fa-code accent5"></span>
+								<h3>Coding and Language</h3>
+								<p>
+									Python, Javascript, HTML, SQL, LaTeX
+									<br>Mandarin Chinese (Native), English (Advanced), German (Intermediate)
+								</p>
+							</section>
+						</div>
+					</section>
+
+					<div class="row">
+						<div class="col-6 col-12-narrower">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/pic02.png" alt="" /></span>
+								<h3>Comparison of similarities between electornic medical records of hospitalized patients with lung cancer</h3>
+								<p id="thesis_short" style='display:block'>Nowadays, the idea of incorporating individual variabilities for medical treatments have become of great importance, also known as precision medicine or personalized medicine. Precision medicine aims at revolutionizing modern human treatment by combining ...</p>
+								<p id="thesis_full" style='display:none'>Nowadays, the idea of incorporating individual variabilities for medical treatments have become of great importance, also known as precision medicine or personalized medicine. Precision medicine aims at revolutionizing modern human treatment by combining patients’ behavior, cellular, molecular, clinical, environmental, genetic parameters. In the research, we analyzed brief history section of discharge summary that included patients’ behaviors and clinical factors. These days, the number of EMRs increased rapidly. Through implementing text-mining techniques on medical records, we on one hand, extended the limit number of patients a physician could see, on the other hand categorized patients and predicted which patients might react similarly to the treatments. Analyzing these EMRs can effectively assist physician in clinical decision- making, provide data support for clinical research as well as personalized healthcare service for patients. In the research, we targeted on inpatients with lung cancer. </p>
+								<ul class="actions special">
+									<li><a class="button alt" onclick="document.getElementById('thesis_short').style.display='None';document.getElementById('thesis_full').style.display='block';this.style.display='None'">Show More</a></li>
+								</ul>
+							</section>
+
+						</div>
+						<div class="col-6 col-12-narrower">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/pic03.png" alt="" /></span>
+								<h3>Web Service of relevance comparison of Chinese Medical Regulations based on Natural Language Processing</h3>
+								<p id="poster_short" style="display:block">Due to the large scale of regulations being draw up by different departments in National Taiwan University Hospital. When one apartment drafts the regulation, they might overlook the content of regulations that already been laid down by other departments, which results in conflict or repeat between regulations. ...
+								</p>
+								<p id="poster_full" style="display:none">Due to the large scale of regulations being draw up by different departments in National Taiwan University Hospital. When one apartment drafts the regulation, they might overlook the content of regulations that already been laid down by other departments, which results in conflict or repeat between regulations. To solve the problem, we establish a web platform to return the ranking list of most likely related regulations to users. We implement Jieba library to undertake Chinese word segmentation, besides the built-up dictionary, we extend it with uncommon legal medical terms on the basis of the regulations. Afterwards, we use word2vec model to yield word embedding and TF-IDF algorithm to extract keywords of each regulation. We then apply Okapi BM25 probabilistic retrieval framework to rank each regulation documents according to their relevance. We also implement relevance feedback by letting users scrutinize the result, and include the keywords of relevant regulation documents to the search base. So far, we have analyzed total number of 439 regulation documents and the tool provides pleasing aid of compilation and auditing regulations. However, evaluation of unsupervised learning is a difficult task. Therefore, we provide a users’ feedback function to optimize the model and will also augment the result by enlarging the database in the future.
+								</p>
+								<ul class="actions special">
+									<li><a class="button alt" onclick="document.getElementById('poster_short').style.display='None';document.getElementById('poster_full').style.display='block';this.style.display='None'">Show More</a></li>
+								</ul>
+							</section>
+
+						</div>
+					</div>
+
+				</section>
+
+			<!-- CTA -->
+				<<!-- section id="cta">
+
+					<h2>Sign up for beta access</h2>
+					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+
+					<form>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8 col-12-mobilep">
+								<input type="email" name="email" id="email" placeholder="Email Address" />
+							</div>
+							<div class="col-4 col-12-mobilep">
+								<input type="submit" value="Sign Up" class="fit" />
+							</div>
+						</div>
+					</form>
+
+				</section> -->
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="mailto:andiechang77@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Andie, Chang. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
